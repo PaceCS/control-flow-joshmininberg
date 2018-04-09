@@ -6,15 +6,15 @@ function evenOddExtended(userInput) {
     // Next fill in the condition to determine if the input is actually an integer
     if (  Number.isInteger(userInput) ) {
         // If the input is an integer, fill in the condition to determine if it is positive
-        if ( userInput >=0.0) {
+        if ( userInput >= 0.0) {
             // If the input is a positive integer, fill in the condition to determine if it is even
-            if ( userInput % 2 == 0 ) {
+            if ( userInput % 2 == 0 )  {
                 console.log('Your number is even!');
             } else {
                 console.log('Your number is odd!');
             }
         } else {
-            console.log('Your number is not an integer.');
+            console.log('Your number is not a positive number.');
         }
     } else{
         console.log('Your input is not an integer.');
